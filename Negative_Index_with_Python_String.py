@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-hello = ('jeff')
-=======
-hello = ('jeff')
->>>>>>> d2c18722a54d6d1e3621f5561875fe4bfe998979
-print(hello)
+sentence = 'The quick brown fox jumped over the lazy dog'
+
+print(sentence[-4:])
