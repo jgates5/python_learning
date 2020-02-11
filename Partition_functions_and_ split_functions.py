@@ -16,12 +16,13 @@
 #It does not matter how big the string is that you pass to partition.
 
 
-tags = 'python,coding,programming,development'
+#tags = 'python,coding,programming,development'
 
-list_of_tags = tags.split(',')
-list_of_tags = tags.split()
+#list_of_tags = tags.split(',') #-> creates a list
+#list_of_tags = tags.split() # -> creates a single string
 
-print(list_of_tags)
+#print(list_of_tags)
+
 
 heading = "Python: An Introduction"
 
