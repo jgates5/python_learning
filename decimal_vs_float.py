@@ -8,12 +8,18 @@ that's what that will equal and then we're going to multiply that by how many un
  this case is 450. So I'm going to run that and the value that we get right here is 42962.4"""
 
 #calling from the decimal library of a specific decimal
+
+
 from decimal import Decimal
 
 product_cost = Decimal(88.40)
 commission_rate = Decimal(0.08)
 qty = 450
 
+#float
+#product_cost += (commission_rate *product_cost)
+#print(product_cost * qty) # 42962.4 
 
-product_cost += (commission_rate *product_cost)
-print(product_cost * qty) # 42962.4
+#calling Decimal from decimal library
+#product_cost += (commission_rate *product_cost)
+#print(product_cost * qty) #42962.40000000000282883716451
