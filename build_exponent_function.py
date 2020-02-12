@@ -27,3 +27,13 @@ print(manual_exponent(2, 3))
 print(manual_exponent(10,2))
 
 
+lambda function that does not have -name see how it works
+def some_function(total, element):
+    return * element
+
+[2, 2, 2]
+some_function(2, 2)
+some_function(4, 2)
+comes to be 8
+    reduce is a list its going to call some function
+    start at a total of 0 by default and going to take the first element of 1
