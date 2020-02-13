@@ -8,3 +8,5 @@ tag_range = tags[:-1] #starts to the back of the list and stops at the end code 
 tag_range = tags[:]
 print(tag_range)
 
+
+
