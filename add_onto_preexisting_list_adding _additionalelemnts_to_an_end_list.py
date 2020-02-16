@@ -13,5 +13,5 @@ tags = ['python', 'development', 'tutorials', 'code']
 #print(tags)
 
 #(creating a new list by adding the new element at the end of that list)
-new_tags = tags + ['Programming']
+new_tags = tags + ['Programming'] 
 print(new_tags)
