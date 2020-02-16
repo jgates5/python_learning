@@ -5,7 +5,7 @@ tags = [
   'code',
   'programming',
 ]
-print(tags[1:4:2]) #= ['development', 'code']
+print(tags[:2]) #= ['development', 'code']
 
 
 """
