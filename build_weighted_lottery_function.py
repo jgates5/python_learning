@@ -20,3 +20,5 @@ other_weights = {
 print(weighted_lottery(other_weights))
 
 
+
+
