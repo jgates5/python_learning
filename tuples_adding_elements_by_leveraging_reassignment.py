@@ -11,8 +11,9 @@ print(id(post))
 print(id(post))
 #post = post + ('published',) 
 post += ('published',) #-> """
-create two objects add them together so we're concatenating them and then 
-put them inside of this variable and it's simply going to override it.
+#create two objects add them together so we're concatenating them and then 
+#put them inside of this variable and it's simply going to override it.
+
 """
 print(id(post))
 #title, sub_heading, content, status = post
@@ -26,7 +27,8 @@ print(status)
 """Python Basics
 Intro guide to python
 Some cool python content
-published"""
+published
+"""
 
 """post = ('Python Basics', 'Intro guide to python', 'Some cool python content')
 
