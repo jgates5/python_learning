@@ -1,4 +1,4 @@
-users = ['Kristine', 'Tiffany', 'Jordan', 'Leann']
+"""users = ['Kristine', 'Tiffany', 'Jordan', 'Leann']
 ids = [1, 2, 3, 4]
 
 mixed_list = [42, 10.3, 'Altuve', users]
@@ -31,4 +31,4 @@ teams = [
 
 angels = teams[1].get('angels', 'Team not found')
 
-print(list(angels.values())[1])
+print(list(angels.values())[1])"""
