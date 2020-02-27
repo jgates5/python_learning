@@ -15,3 +15,6 @@ def heading_generator(title, heading_type):
 print(heading_generator('Greeting', '1'))
 
 print(heading_generator('Hi there', '3'))
+
+#<h1>Greeting</h1>
+ #<h3>Hi there</h3>
