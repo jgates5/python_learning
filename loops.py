@@ -48,4 +48,13 @@ players = {
 for position, player in players.items():
     print('Position', position)
     print('Player Name', player)
-
+"""
+Position 2b
+Player Name Altuve
+Position 3b
+Player Name Bregman
+Position ss
+Player Name Correa
+Position dh
+Player Name Gattis
+"""
