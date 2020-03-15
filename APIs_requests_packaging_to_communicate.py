@@ -9,3 +9,6 @@ to see what the json will look like then use the variable then use the request d
 r.json()
 call pprint.pprint(r.json())
 """
+#what to do with the data
+"""
+call pprint.pprint(r.json()['posts'][0]['url_for_post'])
