@@ -12,4 +12,11 @@ for legacy_customer in legacy_customers:
 
 print(new_customers)
 #['Tiffany', 'Kristine', 'Alice', 'Bob']
-"""
+""" 
+legacy_customers = ['hello', 'hi']
+used_product = ['new', 'used']
+
+for x in legacy_customers:
+    used_product.append(x)
+    
+print(used_product)
