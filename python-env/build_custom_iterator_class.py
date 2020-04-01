@@ -1,21 +1,25 @@
-class Lineup:
+class InfiniteLineup:
     def __init__(self, players):
         self.players = players
 
-    def __iter__(self):
-        self.n = 0
-        return self
+    def lineup(self):
+        lineup_max = len(self.players)
+        idx = 0
 
+        while True:
+            if idx < lineup_max:
+                yield self.players[idx]
+            else:
+                idx = 0
+                yield self.players[idx]
 
-    def __next__(self):
-        if self.n < (len(self.players) - 1):
-            player = self.players[self.n]
-            self.n += 1
-            return player
-        elif self.n == (len(self.players) - 1):
-            player = self.players[self.n]
-            self.n = 0
-            return player
+            idx += 1
+
+    def __repr__(self):
+        return f'InfiniteLineup({self.players})'
+
+    def __str__(self):
+        return f"InfiniteLineup with the players: {', '.join(self.players)}"
 
 
 astros = [
@@ -27,11 +31,11 @@ astros = [
   'Gonzalez',
   'McCann',
   'Davis',
-  'Tucker'
+  'Tucker' 
 ]
 
-astros_linup = Lineup(astros)
-process = iter(astros_lineup)
+full_lineup = InfiniteLineup(astros)
+astros_lineup = full_lineup.lineup()
 
 print(next(astros_lineup))
 print(next(astros_lineup))
